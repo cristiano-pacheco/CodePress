@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "laravelcollective/html": "^5.2.0"
+        "laravelcollective/html": "^5.2.0",
+        "codeedu/laravel-tinymce": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -22,6 +23,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
+            "CodePress\\CodePost\\": "packages/codepost/src/CodePost/",
             "CodePress\\CodeCategory\\": "packages/codecategory/src/CodeCategory/",
             "CodePress\\CodeTag\\": "packages/codetag/src/CodeTag/",
             "CodePress\\CodeDatabase\\": "packages/codedatabase/src/CodeDatabase/"
@@ -50,5 +52,11 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codeedu/laravel-tinymce.git"
+        }
+    ]
 }

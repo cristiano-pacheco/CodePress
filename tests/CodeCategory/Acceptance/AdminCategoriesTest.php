@@ -6,10 +6,11 @@ namespace CodePress\CodeCategory\Tests;
 
 use CodePress\CodeCategory\Models\Category;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class AdminCategoriesTest extends \TestCase
 {
-    use DatabaseMigrations;
+    use DatabaseMigrations, DatabaseTransactions;
 
     public function test_can_visit_admin_categories_page()
     {

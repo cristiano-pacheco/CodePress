@@ -50,6 +50,7 @@
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/admin/categories') }}">Categories</a></li>
                     <li><a href="{{ url('/admin/tags') }}">Tags</a></li>
+                    <li><a href="{{ url('/admin/posts') }}">Posts</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
