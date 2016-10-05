@@ -85,4 +85,18 @@ class AdminPostsTest extends \TestCase
     {
         return Post::create(['title' => 'Post 1', 'content' => 'Post Content']);
     }
+
+    public function test_show_deleted_post()
+    {
+        $post = $this->createAPost();
+        $post->delete();
+
+        $this->visit('/admin/posts')
+            ->see('Posts')
+            ->dontSee('Post 1');
+
+        $this->visit('/admin/posts/deleted')
+            ->see('Posts Deleted')
+            ->see('Post 1');
+    }
 }
