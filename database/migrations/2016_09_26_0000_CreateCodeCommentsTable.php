@@ -12,6 +12,7 @@ class CreateCodeCommentsTable extends Migration
             $table->text('content');
             $table->integer('post_id');
             $table->foreign('post_id')->references('id')->on('codepress_posts');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
