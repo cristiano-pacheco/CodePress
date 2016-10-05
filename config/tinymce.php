@@ -9,8 +9,7 @@ return [
         return asset('/vendor/js/tinymce');
     },*/
 	'params' => [
-		"selector" => "#post-tiny",
-        "height" => "350",
+		"selector" => "#mytiny",
 		"language" => 'pt_BR',
 		"theme" => "modern",
 		"skin" => "lightgray",

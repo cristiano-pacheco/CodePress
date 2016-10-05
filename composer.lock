@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f03dffb1429bc6c2c754e2408f4c3bf7",
-    "content-hash": "49fcc620075973e52234a250c0b6427c",
+    "hash": "cfc3921c7e52cc6ab2e3c7b0a81da1c3",
+    "content-hash": "9d351224c9c38e2e5cc13d67222dd4e9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -175,16 +175,16 @@
         },
         {
             "name": "cristianopacheco/code-category",
-            "version": "0.0.3",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cristianopacheco/CodeCategory.git",
-                "reference": "232264528a1f0c3ba523c0bb46ff7aa65e46fbeb"
+                "reference": "e87b711874f048e40574761dfe6cf1357b96746c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cristianopacheco/CodeCategory/zipball/232264528a1f0c3ba523c0bb46ff7aa65e46fbeb",
-                "reference": "232264528a1f0c3ba523c0bb46ff7aa65e46fbeb",
+                "url": "https://api.github.com/repos/cristianopacheco/CodeCategory/zipball/e87b711874f048e40574761dfe6cf1357b96746c",
+                "reference": "e87b711874f048e40574761dfe6cf1357b96746c",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +209,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-09-26 00:50:39"
+            "time": "2016-10-05 00:16:48"
         },
         {
             "name": "cristianopacheco/code-database",
@@ -255,16 +255,16 @@
         },
         {
             "name": "cristianopacheco/code-post",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cristianopacheco/CodePost.git",
-                "reference": "33644cb63fa155f261535b2f8baafdc53de7bd7f"
+                "reference": "7d0542c62ddf7c987c9e3412d5cdf5535e4819d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cristianopacheco/CodePost/zipball/33644cb63fa155f261535b2f8baafdc53de7bd7f",
-                "reference": "33644cb63fa155f261535b2f8baafdc53de7bd7f",
+                "url": "https://api.github.com/repos/cristianopacheco/CodePost/zipball/7d0542c62ddf7c987c9e3412d5cdf5535e4819d3",
+                "reference": "7d0542c62ddf7c987c9e3412d5cdf5535e4819d3",
                 "shasum": ""
             },
             "require": {
@@ -292,20 +292,20 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-10-01 20:58:24"
+            "time": "2016-10-05 00:10:24"
         },
         {
             "name": "cristianopacheco/code-tag",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cristianopacheco/CodeTag.git",
-                "reference": "c4c6e707f50e17688bdfade4f1986815ec4ae146"
+                "reference": "8f31ed4896047f920a3dcccb577cc56621a8ee7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cristianopacheco/CodeTag/zipball/c4c6e707f50e17688bdfade4f1986815ec4ae146",
-                "reference": "c4c6e707f50e17688bdfade4f1986815ec4ae146",
+                "url": "https://api.github.com/repos/cristianopacheco/CodeTag/zipball/8f31ed4896047f920a3dcccb577cc56621a8ee7f",
+                "reference": "8f31ed4896047f920a3dcccb577cc56621a8ee7f",
                 "shasum": ""
             },
             "require": {
@@ -329,7 +329,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-09-26 00:44:22"
+            "time": "2016-10-05 00:14:57"
         },
         {
             "name": "cviebrock/eloquent-sluggable",
@@ -1452,7 +1452,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3438,16 +3438,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d"
+                "reference": "368b9738d4033c8b93454cb0dbd45d305135a6d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f291ed25eb1435bddbe8a96caaef16469c2a092d",
-                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/368b9738d4033c8b93454cb0dbd45d305135a6d3",
+                "reference": "368b9738d4033c8b93454cb0dbd45d305135a6d3",
                 "shasum": ""
             },
             "require": {
@@ -3483,7 +3483,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-02 02:12:52"
+            "time": "2016-09-25 08:27:07"
         },
         {
             "name": "webmozart/assert",

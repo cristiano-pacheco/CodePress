@@ -8,9 +8,9 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "^5.2.0",
-        "cristianopacheco/code-post": "^0.0.2",
-        "cristianopacheco/code-tag": "~0.0.1",
-        "cristianopacheco/code-category": "~0.0.1"
+        "cristianopacheco/code-post": "0.0.3",
+        "cristianopacheco/code-tag": "0.0.3",
+        "cristianopacheco/code-category": "0.0.4"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

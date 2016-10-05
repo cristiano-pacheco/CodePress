@@ -12,6 +12,7 @@ class CreateCodePostsTable extends Migration
             $table->string('title');
             $table->text('content');
             $table->string('slug')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

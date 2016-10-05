@@ -10,6 +10,7 @@ class CreateCodeTagTable extends Migration
         Schema::create('codepress_tags', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
